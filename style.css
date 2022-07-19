@@ -1,0 +1,134 @@
+/* ====== Navbar === */
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+/* ====== Navbar Akhir === */
+
+/* ====== Judul === */
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(./Image/kang\ cukur.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.jumbotron h1 {
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+}
+
+.jumbotron .container {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 30%);
+    text-align: center;
+}
+
+/* ====== Akhir Judul === */
+
+/* ====== Features === */
+#FEATURES {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Image/kang\ cukur\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* ====== Akhir Features === */
+
+/* ====== Service === */
+.hover-service {
+    cursor: pointer;
+}
+
+.btn-service {
+    color: black;
+    background-color: white;
+}
+
+.btn-service:hover {
+    color: green;
+    background-color: black;
+}
+
+/* ====== Akhir Service === */
+
+/* ====== Testimonials === */
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: 20px;
+}
+
+/* ====== Akhir Testimonials === */
+
+/* ====== Contact === */
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(./Image/kang\ cukur\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hover-service:hover {
+    -moz-box-shadow: inset 0 0 10px red;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000
+}
+
+/* ====== Akhir Contact === */
+
+/* ====== Footer === */
+#footer i {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#footer a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover {
+    color: blue;
+}
+
+/* ====== Akhir Footer === */
+
+
+@media (max-width: 767px) {
+    #FEATURES {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(./Image/kang\ cukur\ 2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300vh;
+    }
+
+    .jumbotron .container {
+        position: absolute;
+        bottom: 40%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, 30%);
+        text-align: center;
+    }
+
+    .jumbotron h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #FEATURES {
+        height: 250vh;
+    }
+}
